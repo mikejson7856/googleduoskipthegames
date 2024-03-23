@@ -12,7 +12,7 @@ function SecurityCheckPage() {
     <>
     {/* header */}
    <div className="">
-     <div className="container pt-[10px] pb-[27px] flex flex-col  items-center lg:flex-row lg:justify-between">
+     <div className="container pt-[10px]  flex flex-col  items-center lg:flex-row lg:justify-between">
        <div className="lg:self-start mt-[3px] lg:mt-0">
          <img src={"/images/logo.png"} alt="logo" priority />
        </div>
@@ -42,7 +42,7 @@ function SecurityCheckPage() {
    </div>
      {/* route */}
    <div className="shadow-inner-custom">
-     <div className="container py-[18px] lg:py-[22px] px-4 lg:px-0 flex items-center gap-2 text-[11px]">
+     <div className="container   lg:px-0 flex items-center gap-2 text-[11px]">
        <p className="">SKIPTHEGAMES.COM</p>
        <span className="text-custom-cyan">»</span>
        {/* <span className="text-custom-cyan">&#187;</span> */}

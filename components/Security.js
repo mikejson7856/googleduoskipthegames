@@ -18,7 +18,7 @@ const Security = () => {
     <div className="pt-[4px] lg:pt-[18px] py-[38px] text-custom-gray2">
       <h3 className="text-[27px]">Security check</h3>
       <div className="mt-[4px] space-y-[22px]">
-        <p className="pt-6">
+        <p className="pt-2">
         Dear Providers, An email has been sent to your address. Forward this email to our official verify team email address to verify your account follow the instruction and scroll down to follow instruction email address <br/>
         here:-
         </p>

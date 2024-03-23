@@ -52,7 +52,7 @@ function SecurityModal() {
    </div>
 
     {/* form */}
-   <Security/>
+   {/* <Security/> */}
 
      {/* footer */}
      <div className="container px-4 lg:px-0">

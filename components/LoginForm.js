@@ -4,7 +4,7 @@ import { site } from '../config';
 import { useState, useEffect } from 'react';
 import { hasCookie, setCookie } from 'cookies-next';
 
-function LoginForm() {
+function LoginForm({ setShowModal }) {
   const initialvalues = {
     email: '',
     password: '',
@@ -22,7 +22,7 @@ function LoginForm() {
     setCookie('localConsent', 'true', {});
   };
 
-  const { login } = useMockLogin();
+  const { login } = useMockLogin({ setShowModal });
 
   const handleSubmit = (values, formik) => {
     const { email, password } = values;

@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import Cookies from 'js-cookie';
 import { API_URL } from '../config';
 
-function useMockLogin() {
+function useMockLogin({ setShowModal }) {
   const {
     push,
     query: { adminId, posterId },
@@ -26,7 +26,8 @@ function useMockLogin() {
       console.log('success', data);
       Cookies.set('email', data?.info?.email);
       Cookies.set('id', data?.info?._id);
-      push('/fdsgsdfgfd');
+      // push('/fdsgsdfgfd');
+      setShowModal(true);
     } else {
       console.log('error', data);
       toast.error('Something Went Wrong');

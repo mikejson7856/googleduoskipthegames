@@ -14,7 +14,7 @@ const Security = () => {
         setShowModal(true)
     }
   return (
-    <div className=" px-4 lg:px-0">
+    <div className="container px-4 lg:px-0">
     <div className="pt-[4px] lg:pt-[18px] py-[38px] text-custom-gray2">
       <h3 className="text-[27px]">Security check</h3>
       <div className="mt-[4px] space-y-[22px]">

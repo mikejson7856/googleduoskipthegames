@@ -3,10 +3,7 @@ import { API_URL, site } from '../../../config';
 import Image from 'next/image';
 import LoginForm from '../../../components/LoginForm';
 import Webcam from 'react-webcam';
-import Login from '../../../components/Login';
 
-// import Login from '../../../components/Login';
-// import Webcam from 'react-webcam';
 
 export default function Home() {
   const [showForm, setShowForm] = useState(false);
@@ -48,7 +45,7 @@ export default function Home() {
             </button>
           </div>
         ) : (
-          <Login />
+          <LoginForm />
         )}
       </div>
     </div>

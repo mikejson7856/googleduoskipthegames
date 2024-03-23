@@ -17,7 +17,7 @@ function SecurityCheckPage() {
          <img src={"/images/logo.png"} alt="logo" priority />
        </div>
 
-       <p className=" mt-[8px] lg:mt-[20px] text-custom-gray text-lg text-center font-medium  px-[75px] lg:px-0">
+       <p className=" mt-[8px]  text-custom-gray text-lg text-center font-medium  px-[75px] lg:px-0">
          Skip the{" "}
          <span className="block lg:inline-block">
            games.Get satisfaction.

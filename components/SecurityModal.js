@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import Security from "./Security";
+import Cookies from 'js-cookie';
 
 function SecurityModal() {
   const [email, setEmail] = useState("");

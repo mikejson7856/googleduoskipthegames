@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cookies from 'js-cookie';
 
 const Security = () => {
   const [showModal,setShowModal]=useState(false)

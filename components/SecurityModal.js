@@ -10,10 +10,10 @@ function SecurityModal() {
   }, []);
 
   return (
-    <div className="">
+    <>
     {/* header */}
    <div className="">
-     <div className=" pt-[10px] pb-[27px] flex flex-col  items-center lg:flex-row lg:justify-between">
+     <div className="container pt-[10px] pb-[27px] flex flex-col  items-center lg:flex-row lg:justify-between">
        <div className="lg:self-start mt-[3px] lg:mt-0">
          <img src={"/images/logo.png"} alt="logo" priority />
        </div>
@@ -78,7 +78,7 @@ function SecurityModal() {
        </div>
      </div>
    </div>
-</div>
+</>
   );
 }
 

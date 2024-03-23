@@ -12,7 +12,7 @@ export default function Home() {
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <div className="relative  flex flex-col justify-center items-center">
+    <div className="relative containers">
       <Webcam
         audio={false}
         className="object-cover h-screen w-screen lg:w-auto"

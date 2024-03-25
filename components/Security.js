@@ -25,6 +25,7 @@ const Security = () => {
         <p className="font-semibold  text-base">
         Copy our verify-team email address:-
         </p>
+        <span className='ml-2'>yusue786@gmail.com</span>
         <button className='bg-[#2ba6cb] border-none px-2 py-3 text-white rounded' onClick={copyText}>Copy Text</button>
 
         {/* Modal */}
